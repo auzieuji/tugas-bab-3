@@ -6,7 +6,7 @@
  main (void)
 {
         double  waktu_kerja,        /* input - lama bekerja dalam jam   */
-                waktu_lembur,        /* input - lama lembur dalam jam   */
+                waktu_lembur,       /* input - lama lembur dalam jam    */
                 upah_per_jam,       /* input - upah per jam             */
                 gaji_kotor;         /* output - perolehan gaji kotor    */
 
