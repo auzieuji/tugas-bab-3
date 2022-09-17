@@ -1,25 +1,29 @@
-// Menghitung Gaji Kotor //
+// Compute the sum and average of two numbers. //
 
- #include <stdio.h>             /* printf, scanf definition */
+#include <stdio.h>      /* printf, scanf definitions */
 
- int
- main (void)
+int
+main(void)
+
 {
-        double  waktu_kerja,        /* input - lama bekerja dalam jam   */
-                waktu_lembur,       /* input - lama lembur dalam jam    */
-                upah_per_jam,       /* input - upah per jam             */
-                gaji_kotor;         /* output - perolehan gaji kotor    */
+    float   one, two,   /* input - numbers to process       */
+            sum,        /* output - sum of one and two      */
+            average;    /* output - average of one and two  */
 
-        /* Dapatkan lama bekerja dalam jam                  */
-        /* Dapatkan lama kerja lembur dalam jam             */
-        /* Dapatkan upah per jam                            */
+        /* Get two numbers.             */
+        printf("Masukkan dua bilangan >> ");
+        scanf("%f %f", &one, &two);
 
-        /* Hitung gaji kotor                                */
-            /* Gaji kotor adalah
-                    lama bekerja dalam jam * upah per jam
-                    + lama lembur * upah per jam * 1.5      */
+        /* Compute sum of numbers.      */
+            /* Sum of numbers is one + two              */
+            sum = one + two;
 
-        /* Tampilkan nilai gaji kotor                       */
+        /* Compute average of numbers.  */
+            /* Average of numbers is sum of numbers / 2 */
+            average = sum / 2;
 
-        return(0);
+        /* Display sum and average.     */
+        printf("Jumlah dua bilangan tersebut adalah %.2f \ndan rata-rata nya adalah %.2f.", sum, average);
+
+    return (0);
 }
