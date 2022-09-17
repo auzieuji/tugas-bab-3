@@ -1,0 +1,25 @@
+// Menghitung Gaji Kotor //
+
+ #include <stdio.h>             /* printf, scanf definition */
+
+ int
+ main (void)
+{
+        double  waktu_kerja,        /* input - lama bekerja dalam jam   */
+                waktu_lembur,        /* input - lama lembur dalam jam   */
+                upah_per_jam,       /* input - upah per jam             */
+                gaji_kotor;         /* output - perolehan gaji kotor    */
+
+        /* Dapatkan lama bekerja dalam jam                  */
+        /* Dapatkan lama kerja lembur dalam jam             */
+        /* Dapatkan upah per jam                            */
+
+        /* Hitung gaji kotor                                */
+            /* Gaji kotor adalah
+                    lama bekerja dalam jam * upah per jam
+                    + lama lembur * upah per jam * 1.5      */
+
+        /* Tampilkan nilai gaji kotor                       */
+
+        return(0);
+}
